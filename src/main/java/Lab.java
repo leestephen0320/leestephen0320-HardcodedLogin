@@ -19,6 +19,6 @@ public class Lab {
             return true;
         }else if(username == "user" && password == "password"){
             return true;
-        }else {false}
+        }else {return false;}
     } 
 }
